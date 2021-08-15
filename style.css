@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+:root {
+    --primary-color: #638592;
+    --dark-gray: #4B5563;
+    --off-white: #E5E7EB;
+}
+
+
+body {
+    font-family: 'Special Elite', cursive;
+    margin: 0px;
+    width: 100vw;
+        
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+.hero .hero-img {
+    max-width: 315px;
+    display: block;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: rgb(207, 180, 180);
+    padding: 1.1rem;    
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#btn-translate{
+    font-size: large;
+    margin: 1rem auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-family: 'Special Elite', cursive;
+    background-color:#638592 ;
+    
+    border-color:black ;
+}
+
+.list-on-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 3rem 0rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link {
+    color: white;
+}
